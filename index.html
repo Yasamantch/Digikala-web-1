@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/main.css" type="text/css" />
+    <title>Digikala-final-project-web-1</title>
+</head>
+<body style="min-height: 2000px">
+    <!--make project digikala-->
+    <div class="wrapper">
+        <!--header-->
+        <header>
+            <div class="banner">
+                <img src="./banner.jpg" alt="" />
+            </div>
+            <div class="register">
+                <div class="register__logo">
+                    <img src="./css/Partials/header/logo.svg" alt="" />
+                </div>
+                <div class="register__search">
+                    <input type="text" name="search" placeholder="جستجو" />
+                </div>
+                <div class="register__login">
+                    <div class="register__login__url">
+                        <a href="#">
+                            <svg
+                  style="
+                    width: 24px;
+                    height: 24px;
+                    fill: var(--color-icon-high-emphasis);
+                  "
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16 15h-2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V7a2 2 0 012-2h6a2 2 0 012 2v2h2V7a4 4 0 00-4-4H6a4 4 0 00-4 4v10a4 4 0 004 4h6a4 4 0 004-4v-2zm6-4H9.414l2.293-2.293-1.414-1.414-4 4a1 1 0 000 1.414l4 4 1.414-1.414L9.414 13H22v-2z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                        <span>ورود</span>
+                        <span class="register__login__url__line"></span>
+                        <span>ثبت نام</span>
+                        </a>
+                    </div>
+                    <div class="register__login__line"></div>
+                    <div>
+                        <svg
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns="http://www.w3.org/2000/svg"
+                style="
+                  width: 24px;
+                  height: 24px;
+                  fill: var(--color-icon-high-emphasis);
+                "
+                width="24"
+                height="24"
+              >
+                <defs>
+                  <symbol
+                    id="cartOff"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M20 4h2V2h-3a1 1 0 00-1 1v1H3a1 1 0 00-.995 1.1l1 10A1 1 0 004 16h15a1 1 0 001-1V4zm-2 17a2 2 0 110-4 2 2 0 010 4zM5 21a2 2 0 110-4 2 2 0 010 4zm13-7V6H4.105l.8 8H18z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </symbol>
+                </defs>
+                <g fill="#424750">
+                  <path
+                    fill-rule="evenodd"
+                    d="M20 4h2V2h-3a1 1 0 00-1 1v1H3a1 1 0 00-.995 1.1l1 10A1 1 0 004 16h15a1 1 0 001-1V4zm-2 17a2 2 0 110-4 2 2 0 010 4zM5 21a2 2 0 110-4 2 2 0 010 4zm13-7V6H4.105l.8 8H18z"
+                    clip-rule="evenodd"
+                  ></path>
+                </g>
+              </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="menu">
+                <div class="menu__right">
+                    <nav>
+                        <div>
+                            <a href="#" class="active">
+                                <svg
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns="http://www.w3.org/2000/svg"
+                    style="
+                      width: 20px;
+                      height: 20px;
+                      fill: var(--color-icon-high-emphasis);
+                    "
+                    width="24"
+                    height="24"
+                  >
+                    <defs>
+                      <symbol
+                        id="hamburgerMenu"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M19 8V6H5v2h14zm0 3v2H5v-2h14zm0 5v2H5v-2h14z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </symbol>
+                    </defs>
+                    <g fill="#424750">
+                      <path
+                        fill-rule="evenodd"
+                        d="M19 8V6H5v2h14zm0 3v2H5v-2h14zm0 5v2H5v-2h14z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </g>
+                  </svg>
+                                دسته بندی کالاها
+                            </a>
+                        </div>
+                        <div><a href="#">شگفت انگیزها</a></div>
+                        <div><a href="#">سوپرمارکت</a></div>
+                        <div><a href="#">کارت هدیه</a></div>
+                        <div><a href="#">پرفروشترین ها</a></div>
+                        <div><a href="#">تخفیف ها و پیشنهادها</a></div>
+                        <div><a href="#">سوالی دارید؟</a></div>
+                        <div><a href="#">در دیجی کالا بفروشید!</a></div>
+                    </nav>
+                </div>
+                <div class="menu__left">
+                    <svg
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              xmlns="http://www.w3.org/2000/svg"
+              style="
+                width: 20px;
+                height: 20px;
+                fill: var(--color-icon-high-emphasis);
+              "
+              width="24"
+              height="24"
+            >
+              <defs>
+                <symbol
+                  id="pin"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M4 9.611C4 5.391 7.59 2 12 2s8 3.39 8 7.611c0 2.818-1.425 5.518-3.768 8.034a23.496 23.496 0 01-2.514 2.322c-.517.413-.923.706-1.166.867L12 21.2l-.552-.366c-.243-.16-.65-.454-1.166-.867a23.499 23.499 0 01-2.514-2.322C5.425 15.129 4 12.428 4 9.61zm8.47 8.794c.784-.627 1.569-1.34 2.298-2.124C16.8 14.101 18 11.827 18 9.611 18 6.521 15.33 4 12 4S6 6.522 6 9.611c0 2.215 1.2 4.49 3.232 6.67A21.536 21.536 0 0012 18.769c.148-.111.305-.233.47-.364zM12 14a4.001 4.001 0 010-8 4.001 4.001 0 010 8zm0-2a2.001 2.001 0 000-4 2.001 2.001 0 000 4z"
+                    clip-rule="evenodd"
+                  ></path>
+                </symbol>
+              </defs>
+              <g fill="#424750">
+                <path
+                  fill-rule="evenodd"
+                  d="M4 9.611C4 5.391 7.59 2 12 2s8 3.39 8 7.611c0 2.818-1.425 5.518-3.768 8.034a23.496 23.496 0 01-2.514 2.322c-.517.413-.923.706-1.166.867L12 21.2l-.552-.366c-.243-.16-.65-.454-1.166-.867a23.499 23.499 0 01-2.514-2.322C5.425 15.129 4 12.428 4 9.61zm8.47 8.794c.784-.627 1.569-1.34 2.298-2.124C16.8 14.101 18 11.827 18 9.611 18 6.521 15.33 4 12 4S6 6.522 6 9.611c0 2.215 1.2 4.49 3.232 6.67A21.536 21.536 0 0012 18.769c.148-.111.305-.233.47-.364zM12 14a4.001 4.001 0 010-8 4.001 4.001 0 010 8zm0-2a2.001 2.001 0 000-4 2.001 2.001 0 000 4z"
+                  clip-rule="evenodd"
+                ></path>
+              </g>
+            </svg>
+                    لطفا شهر خود را انتخاب کنید
+                </div>
+            </div>
+        </header>
+        <!--end header-->
+        <!--story-->
+        <div class="story">
+            <div class="story__center">
+                <!--Swiper-->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-item">
+                                <img src="./story-1.jpg" alt="" />
+                                <h4>تیشرت های وستیتی</h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-item">
+                                <img src="./story-2.jpg" alt="" />
+                                <h4>با اسپایدرمن قهرمان کلاس باش !</h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-item">
+                                <img src="./story-3.jpg" alt="" />
+                                <h4>قمقمه شاخ گوزنی</h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-item">
+                                <img src="./story-4.jpg" alt="" />
+                                <h4> این پلنر مخصوص دانش آموزاست👩🏻‍🎓👨🏻‍🎓</h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-item">
+                                <img src="./story-5.jpg" alt="" />
+                                <h4>پک هدیه به دوستاتون</h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-item">
+                                <img src="./story-6.jpg" alt="" />
+                                <h4>کتبخونتو بساز !</h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-item">
+                                <img src="./story-7.jpg" alt="" />
+                                <h4>ماژیککک</h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-item">
+                                <img src="./story-8.jpg" alt="" />
+                                <h4>R50i vs AirPods Pro</h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-item">
+                                <img src="./story-9.jpg" alt="" />
+                                <h4>هایلو ساعت هم داره؟!</h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-item">
+                                <img src="./story-10.jpg" alt="" />
+                                <h4>بهترین انتخاب ممکن!</h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-item">
+                                <img src="./story-11.jpg" alt="" />
+                                <h4>کرم رفع ترک پا سری‌کیت</h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-item">
+                                <img src="./story-12.jpg" alt="" />
+                                <h4>چاقوی تیز کارهای روزانه ات</h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-item">
+                                <img src="./story-13.jpg" alt="" />
+                                <h4>بادیگارد شو!!!😎</h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-item">
+                                <img src="./story-14.jpg" alt="" />
+                                <h4>سلولیت رو از بین میبره؟</h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-item">
+                                <img src="./story-15.jpg" alt="" />
+                                <h4>جلیقه ابزار</h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-item">
+                                <img src="./story-16.jpg" alt="" />
+                                <h4>پنیر شکلاتی!</h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-item">
+                                <img src="./story-17.jpg" alt="" />
+                                <h4>خواندنی مثل پدران و پسران</h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-item">
+                                <img src="./story-18.jpg" alt="" />
+                                <h4>ساک ورزشی این باشه خوبه 😎</h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-item">
+                                <img src="./story-19.jpg" alt="" />
+                                <h4>سنگ چخماق، مقاوم در برابر باد و باران</h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-item">
+                                <img src="./story-20.jpg" alt="" />
+                                <h4>بهترین حوله واسه ماشین</h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-item">
+                                <img src="./story-21.jpg" alt="" />
+                                <h4>خوشبوکننده ایفل یا آروماتراپی؟</h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-item">
+                                <img src="./story-22.jpg" alt="" />
+                                <h4>برای شروع رژیم کم‌کالری</h4>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper-slide-item">
+                                <img src="./story-23.jpg" alt="" />
+                                <h4>بالش سفری</h4>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
+            <!--end story-->
+            <!--slider-->
+            <div class="slider">
+                <!--Swiper-->
+                <div class="swiper mySlider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./slider-1.jpg" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./slider-2.jpg" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./slider-3.jpg" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./slider-4.jpg" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./slider-5.jpg" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./slider-6.jpg" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./slider-7.jpg" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./slider-8.jpg" alt="" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./slider-9.jpg" alt="" />
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <!--end slider-->
+            <!--continue-->
+            <div class="continue">
+                <div class="continue__center">
+                    <div class="continue__center__item">
+                        <img src="./continue-1.jpg" alt="" />
+                        <span>سوپرمارکت دیجی کالا</span>
+                    </div>
+                    <div class="continue__center__item">
+                        <img src="./continue-2.jpg" alt="" />
+                        <span>دریافت وام</span>
+                    </div>
+                    <div class="continue__center__item">
+                        <img src="./continue-3.jpg" alt="" />
+                        <span>حراج استایل</span>
+                    </div>
+                    <div class="continue__center__item">
+                        <img src="./continue-4.jpg" alt="" />
+                        <span>بازگشت به مدرسه</span>
+                    </div>
+                    <div class="continue__center__item">
+                        <img src="./continue-5.jpg" alt="" />
+                        <span>تبلیغات فروشندگان</span>
+                    </div>
+                    <div class="continue__center__item">
+                        <img src="./continue-6.jpg" alt="" />
+                        <span>جایزه خرید اول</span>
+                    </div>
+                    <div class="continue__center__item">
+                        <img src="./continue-7.jpg" alt="" />
+                        <span>خرید چکی</span>
+                    </div>
+                    <div class="continue__center__item">
+                        <img src="./continue-8.jpg" alt="" />
+                        <span>دیجی پلاس</span>
+                    </div>
+                    <div class="continue__center__item">
+                        <img src="./continue-9.jpg" alt="" />
+                        <span>دیجی کالا مهر</span>
+                    </div>
+                </div>
+            </div>
+            <!--end continue-->
+            <!--amazing-->
+            <div class="amazing">
+                <div class="amazing__center">
+                    <!--Swiper-->
+                    <div class="swiper myAmazing">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="swiper__slide__item active">
+                                    <img src="" alt="" />
+                                    <div class="clock">
+                                        <span class="sohrab">20</span>
+                                        <span class="space">:</span>
+                                        <span class="sohrab">20</span>
+                                        <span class="space">:</span>
+                                        <span class="sohrab">20</span>
+                                    </div>
+                                    <img src="" alt="" />
+                                    <a href="#">مشاهده همه</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide border-radius">
+                                <div class="swiper__slide__amazing">
+                                    <img src="./amazing-1.jpg" alt="" />
+                                    <span>کلیپس مو مدل mm-1</span>
+                                    <div class="discount_price">
+                                        <span>23%</span>
+                                        <span>23000</span>
+                                    </div>
+                                    <div class="price">29900</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper__slide__amazing">
+                                    <img src="./amazing-2.jpg" alt="" />
+                                    <span>پاوربانک شیائومی مدل Redmi ظرفیت 10000 میلی آمپر ساعت به همراه کابل تبدیل microUSB</span>
+                                    <div class="discount_price">
+                                        <span>11%</span>
+                                        <span>689000</span>
+                                    </div>
+                                    <div class="price">770000</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper__slide__amazing">
+                                    <img src="./amazing-3.jpg" alt="" />
+                                    <span>روان نویس طرح پنجه گربه
+                                    </span>
+                                    <div class="discount_price">
+                                        <span>46%</span>
+                                        <span>19000</span>
+                                    </div>
+                                    <div class="price">35000</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper__slide__amazing">
+                                    <img src="./amazing-4.jpg" alt="" />
+                                    <span>کرم آبرسان و مرطوب کننده لایت بیوتی مدل آرگان شی باتر حجم 200 میلی لیتر مجموعه 2 عددی</span>
+                                    <div class="discount_price">
+                                        <span>46%</span>
+                                        <span>199000</span>
+                                    </div>
+                                    <div class="price">370000</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper__slide__amazing">
+                                    <img src="./amazing-5.jpg" alt="" />
+                                    <span>قرص جوشان ویتامین C 1000 میلی گرم‌ های هلث بسته 20 عددی</span>
+                                    <div class="discount_price">
+                                        <span>75%</span>
+                                        <span>16000</span>
+                                    </div>
+                                    <div class="price">65000</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper__slide__amazing">
+                                    <img src="./amazing-6.jpg" alt="" />
+                                    <span>قرص پرینامکس دیورینگ پرگننسی یوروویتال بسته 90 عددی</span>
+                                    <div class="discount_price">
+                                        <span>89%</span>
+                                        <span>92000</span>
+                                    </div>
+                                    <div class="price">872000</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper__slide__amazing">
+                                    <img src="./amazing-7.jpg" alt="" />
+                                    <span>جامدادی مدل آهنربایی طرح مکعبی</span>
+                                    <div class="discount_price">
+                                        <span>61%</span>
+                                        <span>77000</span>
+                                    </div>
+                                    <div class="price">198000</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper__slide__amazing">
+                                    <img src="./amazing-8.jpg" alt="" />
+                                    <span>لوستر 10 شعله شاهان تک کد SHO.6015</span>
+                                    <div class="discount_price">
+                                        <span>21%</span>
+                                        <span>2450000</span>
+                                    </div>
+                                    <div class="price">3100000</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper__slide__amazing">
+                                    <img src="./amazing-9.jpg" alt="" />
+                                    <span>مانیتور شیائومی مدل RMMNT27NF سایز 27 اینچ</span>
+                                    <div class="discount_price">
+                                        <span>5%</span>
+                                        <span>7689000</span>
+                                    </div>
+                                    <div class="price">8100000</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper__slide__amazing">
+                                    <img src="./amazing-10.jpg" alt="" />
+                                    <span>هدفون بلوتوثی انکر مدل SoundCore R50i A3949
+                                    </span>
+                                    <div class="discount_price">
+                                        <span>4%</span>
+                                        <span>738000</span>
+                                    </div>
+                                    <div class="price">769000</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper__slide__amazing">
+                                    <img src="./amazing-11.jpg" alt="" />
+                                    <span>کوله پشتی مدل QW-65421 به  همراه جامدادی</span>
+                                    <div class="discount_price">
+                                        <span>27%</span>
+                                        <span>327000</span>
+                                    </div>
+                                    <div class="price">447000</div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper__slide__amazing">
+                                    <img src="./amazing-12.jpg" alt="" />
+                                    <span>مانیتور خمیده سامسونگ مدل LS24C360 سایز 24 اینچ</span>
+                                    <div class="discount_price">
+                                        <span>5%</span>
+                                        <span>4559000</span>
+                                    </div>
+                                    <div class="price">4820000</div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>
+                </div>
+                <!--end amazing-->
+                <!--koorosh-->
+                <div class="koorosh">
+                    <div class="koorosh-center">
+                        <div>
+                            <img src="./koorosh-1.jpg" alt="" />
+                        </div>
+                        <div>
+                            <img src="./koorosh-2.jpg" alt="" />
+                        </div>
+                        <div>
+                            <img src="./koorosh-3.jpg" alt="" />
+                        </div>
+                        <div>
+                            <img src="./koorosh-4.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+                <!--koorosh-->
+                <!--favorite-->
+                <div class="favorite">
+                    <div class="favorite__center">
+                        <!--Swiper-->
+                        <div class="swiper myFavorite">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="favorite__item">
+                                        <div class="favorite__image">
+                                            <img src="./favorite-1.jpg" alt="" />
+                                        </div>
+                                        <div class="favorite__number">1</div>
+                                        <div class="favorite__text">
+                                            خودکار پنتر مدل فوق روان نانو آنتی باکتریال کد DP-105-1 نوک 1 میلی متری
+                                        </div>
+                                    </div>
+                                    <div class="favorite__item">
+                                        <div class="favorite__image">
+                                            <img src="./favorite-2.jpg" alt="" />
+                                        </div>
+                                        <div class="favorite__number">2</div>
+                                        <div class="favorite__text">
+                                            پنیر سفید ایرانی پگاه - 400 گرم
+                                        </div>
+                                    </div>
+                                    <div class="favorite__item">
+                                        <div class="favorite__image">
+                                            <img src="./favorite-3.jpg" alt="" />
+                                        </div>
+                                        <div class="favorite__number">3</div>
+                                        <div class="favorite__text">
+                                            شکر سفید الماس دانه - 1 کیلوگرم
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="favorite__item">
+                                        <div class="favorite__image">
+                                            <img src="./favorite-4.jpg" alt="" />
+                                        </div>
+                                        <div class="favorite__number">4</div>
+                                        <div class="favorite__text">
+                                            مرغ کامل رتبه A سمین - 1400 گرم
+                                        </div>
+                                    </div>
+                                    <div class="favorite__item">
+                                        <div class="favorite__image">
+                                            <img src="./favorite-5.jpg" alt="" />
+                                        </div>
+                                        <div class="favorite__number">5</div>
+                                        <div class="favorite__text">
+                                            خامه هراز - 200 میلی لیتر
+                                        </div>
+                                    </div>
+                                    <div class="favorite__item">
+                                        <div class="favorite__image">
+                                            <img src="./favorite-6.jpg" alt="" />
+                                        </div>
+                                        <div class="favorite__number">6</div>
+                                        <div class="favorite__text">
+                                            پودر رختشویی دستی سافتلن مقدار 500 گرم
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="favorite__item">
+                                        <div class="favorite__image">
+                                            <img src="./favorite-7.jpg" alt="" />
+                                        </div>
+                                        <div class="favorite__number">7</div>
+                                        <div class="favorite__text">
+                                            دوغ گازدار آبعلی - 250 میلی لیتر
+                                        </div>
+                                    </div>
+                                    <div class="favorite__item">
+                                        <div class="favorite__image">
+                                            <img src="./favorite-8.jpg" alt="" />
+                                        </div>
+                                        <div class="favorite__number">8</div>
+                                        <div class="favorite__text">
+                                            کاغذ A4 کپی مکس مدل دیجیتال بسته 500 عددی
+                                        </div>
+                                    </div>
+                                    <div class="favorite__item">
+                                        <div class="favorite__image">
+                                            <img src="./favorite-9.jpg" alt="" />
+                                        </div>
+                                        <div class="favorite__number">9</div>
+                                        <div class="favorite__text">
+                                            گوشی موبایل شیائومی مدل Redmi Note 13 4G دو سیم کارت ظرفیت 256 گیگابایت و رم 8 گیگابایت
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="favorite__item">
+                                        <div class="favorite__image">
+                                            <img src="./favorite-10.jpg" alt="" />
+                                        </div>
+                                        <div class="favorite__number">10</div>
+                                        <div class="favorite__text">
+                                            شیر کم چرب هراز حجم 1000 میلی لیتر
+                                        </div>
+                                    </div>
+                                    <div class="favorite__item">
+                                        <div class="favorite__image">
+                                            <img src="./favorite-11.jpg" alt="" />
+                                        </div>
+                                        <div class="favorite__number">11</div>
+                                        <div class="favorite__text">
+                                            پنیر فتا دوشه هراز - 400 گرم
+                                        </div>
+                                    </div>
+                                    <div class="favorite__item">
+                                        <div class="favorite__image">
+                                            <img src="./favorite-12.jpg" alt="" />
+                                        </div>
+                                        <div class="favorite__number">12</div>
+                                        <div class="favorite__text">
+                                            روغن مایع آفتابگردان حاوی ویتامین دی و ای لادن - 2.7 کیلوگرم
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="favorite__item">
+                                        <div class="favorite__image">
+                                            <img src="./favorite-13.jpg" alt="" />
+                                        </div>
+                                        <div class="favorite__number">13</div>
+                                        <div class="favorite__text">
+                                            گوشی موبایل سامسونگ مدل Galaxy A15 دو سیم کارت ظرفیت 128 گیگابایت و رم 4 گیگابایت - ویتنام
+                                        </div>
+                                    </div>
+                                    <div class="favorite__item">
+                                        <div class="favorite__image">
+                                            <img src="./favorite-14.jpg" alt="" />
+                                        </div>
+                                        <div class="favorite__number">14</div>
+                                        <div class="favorite__text">
+                                            سوپر شیر پر چرب روزانه- 1 لیتر
+                                        </div>
+                                    </div>
+                                    <div class="favorite__item">
+                                        <div class="favorite__image">
+                                            <img src="./favorite-15.jpg" alt="" />
+                                        </div>
+                                        <div class="favorite__number">15</div>
+                                        <div class="favorite__text">
+                                            هدفون بلوتوثی انکر مدل SoundCore R50i A3949
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="favorite__item">
+                                        <div class="favorite__image">
+                                            <img src="./favorite-16.jpg" alt="" />
+                                        </div>
+                                        <div class="favorite__number">16</div>
+                                        <div class="favorite__text">
+                                            ماکارونی اسپاگتی رشد - 700 گرم
+                                        </div>
+                                    </div>
+                                    <div class="favorite__item">
+                                        <div class="favorite__image">
+                                            <img src="./favorite-17.jpg" alt="" />
+                                        </div>
+                                        <div class="favorite__number">17</div>
+                                        <div class="favorite__text">
+                                            کالباس 90 درصد گوشت قرمز مهيا پروتئين - 250 گرم
+                                        </div>
+                                    </div>
+                                    <div class="favorite__item">
+                                        <div class="favorite__image">
+                                            <img src="./favorite-18.jpg" alt="" />
+                                        </div>
+                                        <div class="favorite__number">18</div>
+                                        <div class="favorite__text">
+                                            ماکارونی شلز زر ماکارون مقدار 500 گرم
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div> 
+                        </div>    
+                    </div>
+                </div>
+                <!--end favorite-->
+            </div>
+            <!--end make project digikala-->
+            <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
+            <script>
+              var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 12.5,
+                spaceBetween: 1,
+                navigation: {
+                  nextEl: ".swiper-button-next",
+                  prevEl: ".swiper-button-prev",
+                },
+              });
+              var swiper = new Swiper(".mySlider", {
+                spaceBetween: 1,
+                centeredSlides: true,
+                autoplay: {
+                  delay: 2500,
+                  disableOnInteraction: false,
+                },
+                pagination: {
+                  el: ".swiper-pagination",
+                  clickable: true,
+                },
+                navigation: {
+                  nextEl: ".swiper-button-next",
+                  prevEl: ".swiper-button-prev",
+                },
+              });
+              var swiper = new Swiper(".myAmazing", {
+                slidesPerView: 8.2,
+                spaceBetween: 1,
+                navigation: {
+                  nextEl: ".swiper-button-next",
+                  prevEl: ".swiper-button-prev",
+                },
+              });
+              var swiper = new Swiper(".myFavorite", {
+                slidesPerView: 4,
+                spaceBetween: 1,
+                navigation: {
+                  nextEl: ".swiper-button-next",
+                  prevEl: ".swiper-button-prev",
+                },
+              });
+            </script>
+</body>
+</html>

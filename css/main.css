@@ -1,0 +1,13 @@
+@import "./Partials/setting.css";
+@import "./Partials/header.css";
+@import "./Partials/story.css";
+@import "./Partials/slider.css";
+@import "./Partials/continue.css";
+@import "./Partials/amazing.css";
+@import "./Partials/koroosh.css";
+@import "./Partials/favourite.css";
+
+@font-face {
+    font-family: Nazanin;
+    src: url(../Fonts/B_NAZANIN/B-NAZANIN.TTF);
+}
